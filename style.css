@@ -107,3 +107,22 @@ section { padding: 40px 0; border-bottom: 1px solid #30363d; }
 }
 
 footer { text-align: center; padding: 60px 0; }
+/* Stilarea Pozei de Profil (Implementarea CSS) */
+.profile-picture {
+    text-align: center; /* Centrează imaginea dacă nu folosești margin: auto */
+    margin-bottom: 20px; /* Spațiu sub poză */
+}
+
+.profile-picture img {
+    /* Dimensiunea: esențială pentru a nu sparge layout-ul */
+    width: 150px; 
+    height: 150px;
+    /* Forma: de ce să nu fie rotundă? */
+    border-radius: 50%;
+    /* Afișarea: bloc pentru a se putea centra */
+    display: inline-block; /* Sau block, dar inline-block e bun pentru centre */
+    /* O mică bordură ca să arate profi și să separe de fundal */
+    border: 3px solid #00c7e2; 
+    /* Umbră subtilă (opțional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
